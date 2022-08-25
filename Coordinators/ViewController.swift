@@ -7,13 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, Storyboardable {
+    
+    weak var coordinator: AppCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
+    @IBAction func createButton(_ sender: Any) {
+        coordinator?.showBuyViewController()
+    }
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        coordinator?.showBuyViewController()
+    }
 }
 
