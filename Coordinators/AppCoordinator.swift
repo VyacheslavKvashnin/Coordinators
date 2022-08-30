@@ -25,7 +25,6 @@ class AppCoordinator: Coordinator {
     func showBuyViewController() {
         let vc = BuyViewController.instantiate()
         vc.coordinator = self
-        vc.view.backgroundColor = .white
         navigationController.pushViewController(vc, animated: true)
     }
     

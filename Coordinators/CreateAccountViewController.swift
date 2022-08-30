@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CreateAccountViewController: UITabBarController, Storyboardable {
+class CreateAccountViewController: UIViewController, Storyboardable {
     
     weak var coordinator: AppCoordinator?
 

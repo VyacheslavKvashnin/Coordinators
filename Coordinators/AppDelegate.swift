@@ -17,10 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navController = UINavigationController()
         coordinator = AppCoordinator(navigationController: navController)
         coordinator?.start()
+        
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = navController
         window.makeKeyAndVisible()
         self.window = window
+        
         return true
     }
 }

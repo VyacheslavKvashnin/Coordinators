@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BuyViewController: UITabBarController, Storyboardable {
+class BuyViewController: UIViewController, Storyboardable {
     
     weak var coordinator: AppCoordinator?
 
