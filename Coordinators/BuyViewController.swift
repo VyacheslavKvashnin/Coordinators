@@ -9,11 +9,16 @@ import UIKit
 
 class BuyViewController: UIViewController, Storyboardable {
     
-    weak var coordinator: AppCoordinator?
+    weak var coordinator: BuyCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
     }
+    
+//    override func viewDidDisappear(_ animated: Bool) {
+//        super.viewDidDisappear(animated)
+//        coordinator?.didFinishBuying()
+//    }
 }

@@ -17,6 +17,7 @@
 		BD7DE6AF28B7943A00301BFA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */; };
 		BD7DE6B128B795FA00301BFA /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6B028B795FA00301BFA /* BuyViewController.swift */; };
 		BD7DE6B328B7960B00301BFA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6B228B7960B00301BFA /* CreateAccountViewController.swift */; };
+		BDFEB09F28BE8E6C0032C955 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BD7DE6B028B795FA00301BFA /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		BD7DE6B228B7960B00301BFA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BD7DE69628B790D500301BFA /* AppDelegate.swift */,
 				BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */,
 				BD7DE69A28B790D500301BFA /* ViewController.swift */,
+				BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */,
 				BD7DE6B028B795FA00301BFA /* BuyViewController.swift */,
 				BD7DE6B228B7960B00301BFA /* CreateAccountViewController.swift */,
 				BD7DE69C28B790D500301BFA /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				BD7DE6AF28B7943A00301BFA /* AppCoordinator.swift in Sources */,
 				BD7DE6AD28B791A800301BFA /* Storyboardable.swift in Sources */,
 				BD7DE6AB28B790FE00301BFA /* Coordinator.swift in Sources */,
+				BDFEB09F28BE8E6C0032C955 /* BuyCoordinator.swift in Sources */,
 				BD7DE69B28B790D500301BFA /* ViewController.swift in Sources */,
 				BD7DE6B328B7960B00301BFA /* CreateAccountViewController.swift in Sources */,
 				BD7DE69728B790D500301BFA /* AppDelegate.swift in Sources */,
