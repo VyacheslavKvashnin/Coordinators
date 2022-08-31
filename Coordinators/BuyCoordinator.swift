@@ -21,7 +21,7 @@ class BuyCoordinator: Coordinator {
     
     func start() {
         let vc = BuyViewController.instantiate()
-        vc.coordinator = self
+//        vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5D237D28BFBA3800B8F16F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D237C28BFBA3800B8F16F /* MainTabBarController.swift */; };
 		BD7DE69728B790D500301BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE69628B790D500301BFA /* AppDelegate.swift */; };
 		BD7DE69B28B790D500301BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE69A28B790D500301BFA /* ViewController.swift */; };
 		BD7DE69E28B790D500301BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7DE69C28B790D500301BFA /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5D237C28BFBA3800B8F16F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		BD7DE69328B790D500301BFA /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7DE69628B790D500301BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD7DE69A28B790D500301BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				BD7DE6AA28B790FE00301BFA /* Coordinator.swift */,
 				BD7DE6AC28B791A800301BFA /* Storyboardable.swift */,
+				BD5D237C28BFBA3800B8F16F /* MainTabBarController.swift */,
 				BD7DE69628B790D500301BFA /* AppDelegate.swift */,
 				BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */,
 				BD7DE69A28B790D500301BFA /* ViewController.swift */,
@@ -155,6 +158,7 @@
 			files = (
 				BD7DE6AF28B7943A00301BFA /* AppCoordinator.swift in Sources */,
 				BD7DE6AD28B791A800301BFA /* Storyboardable.swift in Sources */,
+				BD5D237D28BFBA3800B8F16F /* MainTabBarController.swift in Sources */,
 				BD7DE6AB28B790FE00301BFA /* Coordinator.swift in Sources */,
 				BDFEB09F28BE8E6C0032C955 /* BuyCoordinator.swift in Sources */,
 				BD7DE69B28B790D500301BFA /* ViewController.swift in Sources */,

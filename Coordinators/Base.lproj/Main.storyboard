@@ -37,17 +37,29 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngL-04-Qcc"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bW3-ei-53E">
+                                <rect key="frame" x="141.5" y="432.5" width="131" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qeZ-BB-miJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="5c2-U5-n1J"/>
+                            <constraint firstItem="bW3-ei-53E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BTp-5e-eth"/>
+                            <constraint firstItem="bW3-ei-53E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EuZ-KA-twM"/>
                             <constraint firstItem="DDa-ef-kbn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="Jo4-iC-T3L"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qeZ-BB-miJ" secondAttribute="trailing" symbolic="YES" id="dJH-XU-9oL"/>
                             <constraint firstItem="DDa-ef-kbn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="gnq-uy-8MR"/>
                             <constraint firstItem="qeZ-BB-miJ" firstAttribute="top" secondItem="sMQ-gI-8aR" secondAttribute="bottom" constant="50" id="nWg-Gr-LT7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="product" destination="bW3-ei-53E" id="ehl-c1-zUM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

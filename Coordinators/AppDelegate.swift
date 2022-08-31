@@ -14,12 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let navController = UINavigationController()
-        coordinator = AppCoordinator(navigationController: navController)
-        coordinator?.start()
+        
         
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = navController
+        window.rootViewController = MainTabBarController()
         window.makeKeyAndVisible()
         self.window = window
         

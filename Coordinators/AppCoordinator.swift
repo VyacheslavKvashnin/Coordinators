@@ -19,6 +19,7 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     func start() {
         navigationController.delegate = self
         let vc = ViewController.instantiate()
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
@@ -28,6 +29,13 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
         child.parentCoordinator = self
         childCoordinators.append(child)
         child.start()
+    }
+    
+    func buySubscription(to productType: Int) {
+        let vc = BuyViewController.instantiate()
+        vc.selectedProduct = productType
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func showCreateAccountViewController() {
@@ -48,7 +56,7 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController,
                               didShow viewController: UIViewController,
                               animated: Bool) {
-        guard let fromViewController = navigationController.transitionCoordinator?.view(forKey: .from) else {
+        guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else {
             return
         }
         if navigationController.viewControllers.contains(fromViewController) {

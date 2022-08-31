@@ -9,7 +9,8 @@ import UIKit
 
 class BuyViewController: UIViewController, Storyboardable {
     
-    weak var coordinator: BuyCoordinator?
+    weak var coordinator: AppCoordinator?
+    var selectedProduct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
