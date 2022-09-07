@@ -23,5 +23,6 @@ class BuyCoordinator: Coordinator {
         let vc = BuyViewController.instantiate()
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
         navigationController.pushViewController(vc, animated: true)
+        
     }
 }
