@@ -14,7 +14,6 @@ class BuyViewController: UIViewController, Storyboardable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     
