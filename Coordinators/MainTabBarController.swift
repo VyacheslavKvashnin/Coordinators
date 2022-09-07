@@ -10,11 +10,13 @@ import UIKit
 class MainTabBarController: UITabBarController {
     
     let main = AppCoordinator(navigationController: UINavigationController())
+    let buy = BuyCoordinator(navigationController: UINavigationController())
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         main.start()
-        viewControllers = [main.navigationController]
+
+        viewControllers = [main.navigationController, buy.navigationController]
     }
 }

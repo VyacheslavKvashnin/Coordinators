@@ -17,7 +17,6 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     }
     
     func start() {
-        navigationController.delegate = self
         let vc = ViewController.instantiate()
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         vc.coordinator = self
@@ -40,6 +39,7 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     
     func showCreateAccountViewController() {
         let vc = CreateAccountViewController.instantiate()
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
