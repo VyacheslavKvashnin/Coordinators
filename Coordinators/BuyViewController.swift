@@ -14,7 +14,7 @@ class BuyViewController: UIViewController, Storyboardable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = .white
     }
     
     override func viewDidDisappear(_ animated: Bool) {
