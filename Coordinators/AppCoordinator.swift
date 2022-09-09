@@ -17,10 +17,18 @@ class AppCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     }
     
     func start() {
-        let vc = ViewController.instantiate()
-        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
+//        let vc = ViewController.instantiate()
+//        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+//        vc.coordinator = self
+//        navigationController.pushViewController(vc, animated: true)
+        
+        let first = FirstTabCoordinator(navigationController: UINavigationController())
+        first.start()
+        childCoordinators.append(first)
+        let firstVC = first.navigationController
+        firstVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        
+        
     }
     
     func showBuyViewController() {

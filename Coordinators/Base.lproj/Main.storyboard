@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="801" y="94"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--First View Controller-->
         <scene sceneID="MGB-KH-P6I">
             <objects>
-                <viewController storyboardIdentifier="CreateAccountViewController" id="S0I-sk-MHh" customClass="CreateAccountViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAccountViewController" id="S0I-sk-MHh" customClass="FirstViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N9h-ze-jCP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gke-Cn-Qi0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1544.9275362318842" y="101.78571428571428"/>
+            <point key="canvasLocation" x="1603" y="94"/>
         </scene>
     </scenes>
     <resources>

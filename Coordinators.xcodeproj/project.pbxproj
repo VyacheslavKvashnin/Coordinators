@@ -18,6 +18,10 @@
 		BD7DE6AF28B7943A00301BFA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */; };
 		BD7DE6B128B795FA00301BFA /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6B028B795FA00301BFA /* BuyViewController.swift */; };
 		BD7DE6B328B7960B00301BFA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE6B228B7960B00301BFA /* CreateAccountViewController.swift */; };
+		BDB07DA228CB533700E5B7E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB07DA128CB533700E5B7E0 /* SecondViewController.swift */; };
+		BDB07DA428CB536F00E5B7E0 /* SecondTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB07DA328CB536F00E5B7E0 /* SecondTabCoordinator.swift */; };
+		BDDABEE628CA19DB004A78A2 /* FirstTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDABEE528CA19DB004A78A2 /* FirstTabCoordinator.swift */; };
+		BDDABEE828CA1D65004A78A2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDABEE728CA1D65004A78A2 /* FirstViewController.swift */; };
 		BDFEB09F28BE8E6C0032C955 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +39,10 @@
 		BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BD7DE6B028B795FA00301BFA /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		BD7DE6B228B7960B00301BFA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BDB07DA128CB533700E5B7E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BDB07DA328CB536F00E5B7E0 /* SecondTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinator.swift; sourceTree = "<group>"; };
+		BDDABEE528CA19DB004A78A2 /* FirstTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinator.swift; sourceTree = "<group>"; };
+		BDDABEE728CA1D65004A78A2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +81,10 @@
 				BD5D237C28BFBA3800B8F16F /* MainTabBarController.swift */,
 				BD7DE69628B790D500301BFA /* AppDelegate.swift */,
 				BD7DE6AE28B7943A00301BFA /* AppCoordinator.swift */,
+				BDDABEE728CA1D65004A78A2 /* FirstViewController.swift */,
+				BDB07DA128CB533700E5B7E0 /* SecondViewController.swift */,
+				BDDABEE528CA19DB004A78A2 /* FirstTabCoordinator.swift */,
+				BDB07DA328CB536F00E5B7E0 /* SecondTabCoordinator.swift */,
 				BD7DE69A28B790D500301BFA /* ViewController.swift */,
 				BDFEB09E28BE8E6C0032C955 /* BuyCoordinator.swift */,
 				BD7DE6B028B795FA00301BFA /* BuyViewController.swift */,
@@ -156,15 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB07DA228CB533700E5B7E0 /* SecondViewController.swift in Sources */,
 				BD7DE6AF28B7943A00301BFA /* AppCoordinator.swift in Sources */,
 				BD7DE6AD28B791A800301BFA /* Storyboardable.swift in Sources */,
 				BD5D237D28BFBA3800B8F16F /* MainTabBarController.swift in Sources */,
+				BDDABEE628CA19DB004A78A2 /* FirstTabCoordinator.swift in Sources */,
 				BD7DE6AB28B790FE00301BFA /* Coordinator.swift in Sources */,
 				BDFEB09F28BE8E6C0032C955 /* BuyCoordinator.swift in Sources */,
 				BD7DE69B28B790D500301BFA /* ViewController.swift in Sources */,
 				BD7DE6B328B7960B00301BFA /* CreateAccountViewController.swift in Sources */,
 				BD7DE69728B790D500301BFA /* AppDelegate.swift in Sources */,
+				BDB07DA428CB536F00E5B7E0 /* SecondTabCoordinator.swift in Sources */,
 				BD7DE6B128B795FA00301BFA /* BuyViewController.swift in Sources */,
+				BDDABEE828CA1D65004A78A2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
